@@ -1,0 +1,25 @@
+.blue_href {
+    font-size: 1em;
+}
+
+.big_blue_href {
+    font-size: 1.3em;
+}
+
+.blue_href, .big_blue_href {
+    color: dodgerblue;
+}
+
+.tag {
+    color: lightseagreen;
+    font-size: 1em;
+}
+
+.blue_href, .big_blue_href, .tag {
+    font-weight: bold;
+    user-select: none;
+}
+
+.blue_href:hover, .big_blue_href:hover, .tag:hover {
+    text-decoration: underline;
+}

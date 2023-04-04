@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>AskMe</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/names.css">
+    <link rel="stylesheet" type="text/css" href="styles/questions_page.css">
+    <link rel="stylesheet" type="text/css" href="styles/inputs.css">
+    <link rel="stylesheet" type="text/css" href="styles/hrefs.css">
+    <link rel="stylesheet" type="text/css" href="styles/question.css">
+  </head>
+  <body>
+    <div class="content_body">
+      <header>
+        <div class="name1">
+          AskMe
+        </div>
+        <div class="search_form">
+          <div class="text_input">
+            <input
+              class="search"
+              type="text"
+              placeholder="Поиск"
+            />
+          </div>
+          <div>
+            <input
+              class="blue_button"
+              type="button"
+              value="Вперёд!"
+            />
+          </div>
+        </div>
+        <div class="log_form">
+          <div class="blue_href">Войти</div>
+          <div class="blue_href">Регистрация</div>
+        </div>
+      </header>
+
+      <div class="questions">
+          <main>
+              <article class="full_question">
+                <div class="top_info">
+                    <div class="avatar">
+                      <img src="images/avatar.svg" />
+                    </div>
+                    <div class="user_info">
+                      <div class="bold_text3">Firstname Lastname</div>
+                      <div class="comm_info">
+                        <div class="likes">
+                          <div class="img">
+                              <img src="images/like.svg" />
+                          </div>
+                          <div class="name4">5</div>
+                        </div>
+                        <div class="data">
+                          DD.MM.YYYY HH:MM
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <hr></hr>
+                <div class="content">
+                    <div>
+                        <span class="bold_text2">Как создать приложение?</span>
+                    </div>
+                    <div class="question">
+                        Мой вопрос заключается в том, что мне необходимо сделать кое-что интересное.
+                        Я думаю над тем, как создать собственное веб-приложение. Не могли бы
+                        посоветовать, какие технологии мне нужно изучить и с каких языков
+                        программирования начать?
+                    </div>
+                    <div class="other_info">
+                        <div>
+                            <span>Теги:</span>
+                            <span class="tag">django</span>
+                            <span class="tag">python</span>
+                            <span class="tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+              </article>
+              <div class="question_boxes">
+                  <article>
+                    <div class="left_info">
+                        <div class="avatar">
+                          <img src="images/avatar.svg" />
+                        </div>
+                        <div class="likes">
+                            <div class="img">
+                                <img src="images/like.svg" />
+                            </div>
+                            <div class="name4">5</div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="question">
+                            Во-первых, тебе необходимо начать изучать этот фраемворк, а также изучить данную технологию. 
+                            Тебе будет легко сделать шаблонный пример, но над чем-то своим тебе придётся долго и упорно
+                            работать. Желаю удачи!
+                        </div>
+                        <div class="other_info">
+                          <input 
+                            type="checkbox"
+                          />
+                          <label class="name4">Лучший ответ</label>
+                        </div>
+                    </div>
+                  </article>
+                  <article>
+                    <div class="left_info">
+                        <div class="avatar">
+                          <img src="images/avatar.svg" />
+                        </div>
+                        <div class="likes">
+                            <div class="img">
+                                <img src="images/like.svg" />
+                            </div>
+                            <div class="name4">5</div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="question">
+                            Во-первых, тебе необходимо начать изучать этот фраемворк, а также изучить данную технологию. 
+                            Тебе будет легко сделать шаблонный пример, но над чем-то своим тебе придётся долго и упорно
+                            работать. Желаю удачи!
+                        </div>
+                        <div class="other_info">
+                          <input 
+                            type="checkbox"
+                          />
+                          <label class="name4">Лучший ответ</label>
+                        </div>
+                    </div>
+                </article>
+              </div>
+              <div class="paginator">
+                  <div class="left">назад</div>
+                  <div class="page">3</div>
+                  <div class="right">далее</div>
+              </div>
+              <hr></hr>
+              <div class="answer_form">
+                <div class="text_form">
+                  <textarea 
+                    placeholder="Введите ответ"
+                  ></textarea>
+                </div>
+                <div>
+                  <input
+                    class="blue_button" 
+                    type="button"
+                    value="Ответить"
+                  />
+                </div>
+              </div>
+          </main>
+          <aside>
+              <div>
+                  <div class="header2">Популярные теги</div>
+                  <div class="tag_box">
+                    <span class="tag">django</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">javascript</span>
+                    <span class="tag">Python</span>
+                  </div>
+              </div>
+              <hr></hr>
+              <div>
+                  <div class="header2">Топ пользователей</div>
+                  <div class="href_box">
+                    <p class="blue_href">User1</p>
+                    <p class="blue_href">Abebsandr</p>
+                    <p class="blue_href">Sasha</p>
+                    <p class="blue_href">Cookie</p>
+                    <p class="blue_href">user33</p>
+                  </div>
+              </div>
+          </aside>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        //
+      </div>
+    </footer>
+  </body>
+</html>
